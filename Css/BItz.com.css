@@ -1,0 +1,603 @@
+@font-face
+
+{
+    font-family: Miss Lankfort;
+    src: url('./fonts/Miss Lankfort.ttf');
+}
+@font-face {
+    font-family: whatrng;
+    src: url('./fonts/WHATRG_.ttf') format('truetype');
+}
+@font-face {
+    font-family: 03959_BauhausRegular;
+    src: url('./fonts/03959_BauhausRegular.ttf')format('truetype');
+}
+body {
+    font: 15px/1.5;
+    background: #101010;
+    color: #10b1c9;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+p,h3{
+    font-family: arial;
+}
+.formedia{
+    display: none;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    /*height: 570px;*/
+   /* border: 3px solid #10b1c9;*/
+    /*position: relative;*/
+}
+.container1 {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    background-color: #101010;
+    z-index: 10;
+    max-height: 90px;
+}
+.menu_panel {
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /*max-height: 90px;*/
+}
+#BitzLogo {
+    float: left;
+    /*display: inline-block;*/
+    width: 100%;
+    height: 80px;
+    background-color: #10b1c9;
+    margin-top: 0px;
+}
+#BitzLogo img {
+    width: 100%;
+    float: left;
+    margin: auto;
+    padding-left: 6%;
+}
+.navigation {
+    width: 100%;
+    float: right;
+    align-content: left;
+    max-height: 90px;
+    background-color: #101010;
+}
+.meanu {
+    margin: 0px;
+    padding: 0px;
+}
+.meanu li {
+    display: inline;
+    float: left;
+    border: 2px solid #10b1c9;
+    width: 20%;
+}
+.meanu li a {
+    display: block;
+    /*margin: 26px 0px 41px 172px;*/
+    color: #10b1c9;
+    font: 24px bold;
+    font-family: arial black;
+    text-align: center;
+    padding: 10%;
+    height: 80px;
+}
+li a:active {
+    background-color: #10b1c9;
+    color: #101010;
+    border-left: 1px solid #101010;
+}
+/*.meanu li a .selected2 {
+    background-color:#10b1c9;
+    color:#101010;
+    border-left: 3px solid #101010;}
+*/
+
+.flotbox {
+    float: left;
+    width: 24%;
+    /*height: 200px;*/
+    margin: 10px 6px 30px 6px;
+    position: inherit;
+    padding-top: 30px;
+}
+.flotbox img {
+    align-content: center;
+    width: 49%;
+    }
+.box,h3,p {
+    text-align: center;
+    margin: 0px;
+    font-size: 21px;
+}
+.Category_selection {
+    
+} 
+.lagdisk {
+    width: 43%;
+    /*height: 220px;*/
+}
+.flotbox img:hover,.lagdisk:hover{
+    border: 1px solid #10b1c9;
+}
+.Categorynav {
+    float: left;
+    width: 24.5%;
+    position: relative;
+}
+.category {
+    display: block;
+    border: 3px solid #10b1c9;
+    height: 566px;
+}
+/*.Category_heading {
+    text-decoration: none;
+    font: 25px bold;
+    font-family: arial black;
+}*/
+
+.selections {
+    position: static;
+    margin: 0px;
+    padding: 0px;
+}
+.selections li {
+    border: 3px solid #10b1c9;
+    margin: 4px;
+    text-decoration: none;
+    list-style: none;
+    padding: 14px;
+    font-weight: bold;
+}
+/*.selections li a {
+    text-decoration: none;
+}*/
+
+/*.mp3{
+ text-decoration: none;   
+}*/
+
+.mp3,.cut_mp3 {
+    font-size: 25px;
+    padding: 20px;
+    font-family: arial;
+    font-weight: bold;
+    width: auto;
+}
+.mp3,.cut_mp3:active{
+    background-color: #10b1c9;
+    color: #101010;
+}
+.subcontainer {
+    width: 75%;
+    float: right;
+    }
+.maincontainer {
+    margin-top: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+.laguage {
+    float: left;
+    width: 50%;
+    /*height: 200px;*/
+    margin: auto;
+    position: inherit;
+    padding: 3%;
+}
+.lagugename{
+    font-size:23px;
+    /*font-style: oblique;*/
+    font-weight: bolder;
+}
+.contactarea {
+    width: 100%;
+}
+.boxcontact{
+        width: 100%;
+        margin: auto;
+    }
+.contactfrom {
+    width: 75%;
+    margin: auto;
+    padding-top: 5%;
+}
+/*.conform {
+    padding: 32px;
+}*/
+/*.contactfrombox{
+    padding-left: 20px;
+}*/
+.contactfrombox{
+    width: 49%;
+    margin: auto;
+}
+.contactfrombox h2 {
+    font: 25px bold;
+    font-family: arial black;
+    border: 3px solid #10b1c9;
+padding: 14px;
+    }
+/*#contactus{
+    margin: 6px 0px 0px 257px !important;
+}*/
+*{
+    box-sizing: border-box;
+}
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 27px;
+    border: 2px solid #10b1c9;
+    resize: vertical;
+    background-color: #10b1c9;
+    color: #101010;
+}
+input[type=text]:focus,
+textarea:focus {
+    background-color: #101010;
+    color: #10b1c9;
+}
+label {
+    padding: 22px;
+    display: inline-block;
+    font: 21px bold;
+    font-family: arial;
+}
+input[type=submit],
+[type=reset] {
+    width: 21%;
+    padding: 20px;
+    background-color: #10b1c9;
+    border: none;
+    display: inline;
+    color: #101010;
+    float: right;
+    margin-left: 4px;
+    font: 21px bold;
+    font-family: arial;
+}
+input[type=text]:hover,
+textarea:hover{
+     outline: 1px solid #10b1c9;
+}
+input[type=submit]:hover,
+[type=reset]:hover {
+    background-color: #0e5660;
+}
+.col-25 {
+    width: 25%;
+    float: left;
+}
+.col-75 {
+    width: 75%;
+    float: right;
+}
+.row:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+.but {
+    float: right;
+    min-width: 100%; 
+    width: 50%;
+}
+.buttonbox {
+    width: auto;
+    padding-right: 10px;
+}
+input[type=reset] {
+    margin-left: 15px;
+}
+.row {
+    padding: 10px;
+}
+.but:after {
+    clear: both;
+}
+.contacatcan{
+   clear: both;
+    padding-top: 5%;
+    width: 75%;
+    margin: auto;
+}
+.sitelogo img{
+    width: 57%;
+}
+.contributers,.cmpnylgo{
+    width: auto;
+    /*padding-top: 20px;*/
+}
+.contributers h3{
+    font: 30px italic;
+    font-family: fantasy;
+    text-decoration: underline;
+
+}
+.cmpnylgo img{
+    width: 20%;
+}
+.address h4,h5{
+    width: auto;
+    font: 20px arial;
+    margin: 0px;
+    
+}
+.linkarea{
+    width: 100%;
+    margin: auto;
+}
+.address img{
+    width: 54px;
+    float: left;
+}
+.gmail,.website{
+    width: auto;
+    font: 20px arial;
+    float: left;
+    padding: 10px;
+    color: #10b1c9;
+}
+.linkbox1,.linkbox2{
+        width: 571px;
+        margin: auto;
+    }
+    
+
+
+/*Media Query*/
+
+@media only screen and (max-width: 768px) {
+    
+    .container1 {
+    
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+}
+    .navigation {
+        display: none;
+        clear: both;
+    }
+    .formedia {
+    display: inline-flex;
+    width: 100%;
+    background-color: #10b1c9;
+    height: 75%;
+    clear: both;
+    position: relative;
+    opacity: 60%;
+}
+    .logomedia {
+        width: 100%;
+        float: left;
+    }
+    .logomedia img{
+        width:170px;
+        float: left;
+        padding: 10px 0px 0px 10px;
+    }
+    .dropdowncontainer{
+        position: relative;
+        width:65px;
+        float: right;
+        }
+    /*.dropdwnicon{
+        width: 25%;
+        float: right;*/
+    .dropdowncontainer img {
+        width: 72px;
+        position: relative;
+        float: right;
+    }
+    .navigationmedia{
+        position: absolute;
+        width: 320px;
+        background-color: rgba(16, 177, 201, 0.8);
+        top: 101%;
+        right: 0%;
+        opacity: 60%;
+    }
+    .menu_panel,.container1{
+        overflow: visible;
+    }
+    .dropdwnmedia{
+        /*display: none;*/
+        padding: 0px;
+        margin: auto;
+        list-style-type: none;
+    }
+    .dropdwnmedia li {
+    display: none;
+    /*border: 2px solid #101010;*/
+    width: 100%;
+    margin: auto;
+    text-decoration: none;
+        z-index: 1;
+    }
+    .dropdwnmedia li a{
+     display: block;
+    /*margin: 26px 0px 41px 172px;*/
+    color: #101010;
+    font: 21px bold;
+    font-family: arial black;
+    text-align: center;
+    padding: 5%; 
+    margin: auto;
+    text-decoration: none;
+    }
+    .dropdowncontainer:hover .dropdwnmedia li{
+        display: inline-block;
+    }
+/*.navigationmedia:hover*/.dropdwnmedia li a:hover{
+    background-color: rgba(16, 16, 16, 0.75);
+    color:rgba(16, 177, 201, 0.8);
+    text-shadow: 0 0 2px #10b1c9;
+    opacity: 60%;
+}
+.flotbox{
+    width: 45%;
+    padding: 0px;
+    display: inline;
+    float: left;
+    margin: 5px;
+}
+    .box p,.leatesttitle{
+        font-size: 74%;
+    }
+    .flotbox img{
+        width: 80%;
+    }
+    .Categorynav{
+        width: 100%;
+        height: auto;
+    }
+    .category{
+        height: auto;
+    }
+    .subcontainer{
+        width: 100%;
+    }
+    .mp3,.cut_mp3 {
+        font-size: 16px;
+        font-family:arial;
+        font-weight: bold;
+    }
+    .selections li {
+        margin: 1px;
+        padding: 7px;
+    }
+    .lagugename{
+        font-size:20px;
+    }
+    .lagtitle{
+        width: 100%;
+    }
+    .lagdisk{
+        width: 80%;
+    }
+    .contactarea{
+        padding-top: 20px;
+    }
+    .contactfrom {
+    width: 100%;
+    }
+    .contactfrombox{
+        width: 80%;
+    }
+    
+    .contactfrombox h2 {
+        margin: 0px;
+        font-size: 18px;
+        padding: 10px;
+    }
+    .col-25{
+        width: 80%;
+    }
+    .col-75{
+        width: 100%;
+    }
+   .contactfrom, label{
+        margin: 0px;
+        padding: 0px;
+    }
+    label{
+        float: left;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .conform,.row{
+        width: 100%;
+    }
+    .conform{
+        padding: 5px;
+        margin: 0px;
+    }
+    .row{
+        padding: 0px 6px;
+        margin: 0px;
+    }
+    input[type=text],
+textarea {
+    padding: 20px;
+    }
+    .buttonbox{
+        width: 100%;
+        padding: 0px 6px;
+        margin-top: 14px;
+        }
+    .but{
+        width: 100%;
+    }
+    input[type=submit],
+[type=reset] {
+    width: 50%;
+    padding: 20px;
+    float: left;
+    margin: auto;
+    border: 1px solid #101010
+}
+    input[type=reset] {
+    margin-left: 0px;
+}
+    .contacatcan{
+        width: 100%;
+    }
+    .sitelogo img{
+        width: 80%;
+    }
+    .contributers h3{
+        font-size: 25px;
+    }
+    .cmpnylgo{
+        padding-top: 10px;
+    }
+    .cmpnylgo img{
+        width: 60%;
+    }
+    .address h4, h5{
+        font-size: 16px;
+    }
+    
+}
+@media only screen and (max-width: 584px){
+    .linkbox1, .linkbox2{
+        width: auto;
+        margin: auto;
+        overflow: auto;
+        clear: both;
+    }
+    .gmail,.website{
+        font-size: 16px;
+        clear: both;
+    }
+    .address img{
+        width: 50px;
+        margin-left: 62px;
+    }
+    .linkarea{
+        width: 191px;
+        margin: auto;
+        padding-top:15px;
+    }
+    
+}
+/*Media Query*/
